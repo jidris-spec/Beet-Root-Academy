@@ -10,12 +10,7 @@ body{
     align-items: center;
 }
 
-header{
-    position: absolute;
-    top: 0px;
-    left: 120px;
-    
-}
+
 
 /* header p{
     position: relative;

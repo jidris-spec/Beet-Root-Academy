@@ -1,0 +1,27 @@
+.weather-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  /* Normal box */
+  .box {
+    background: skyblue;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  /* Custom width using column span */
+  .venice {
+    background: #d9534f;
+    grid-column: span 2; /* spans 2 columns */
+  }
+  
+  .sydney {
+    background: #6c5ce7;
+    grid-column: span 3; /* spans all 3 columns */
+  }
+  
